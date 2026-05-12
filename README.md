@@ -1,6 +1,6 @@
 # TEDA
 
-Code base for “**A Topology-Enhanced Dual-stream Attention Model for Parasternal Long-Axis View Identification in Echocardiography**”.
+This is the official implementation of the paper "A Topology-Enhanced Dual-stream Attention Model for Parasternal Long-Axis View Identification in Echocardiography". 
 
 ## Introduction
 
@@ -9,7 +9,7 @@ The echocardiographic parasternal long-axis (PLAX) view serves as a fundamental 
 
 ## Using the code:
 
-The code is stable while using Python 3.8.0, CUDA >=11.1
+The code is stable while using Python 3.9.13, CUDA >=11.6
 
 - Clone this repository:
 ```bash
@@ -30,8 +30,4 @@ pip install -r requirements.txt
 1. Train the model.
 ```
 python train.py
-```
-2. Evaluate.
-```
-python test.py
 ```
