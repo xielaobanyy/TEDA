@@ -24,8 +24,3 @@ conda env create TEDA python==3.9.13
 conda activate TEDA
 pip install -r requirements.txt
 ```
-
-## Training and Validation
-```
-python train.py
-```
