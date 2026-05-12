@@ -26,8 +26,6 @@ pip install -r requirements.txt
 ```
 
 ## Training and Validation
-
-1. Train the model.
 ```
 python train.py
 ```
